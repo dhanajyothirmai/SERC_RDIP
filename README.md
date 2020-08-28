@@ -7,12 +7,14 @@ Navigating to next line - Line breaks are needed.
 #### Unordered Lists 
 - Bullet point 1
 - Bullet point 2
-   - Nested Bullet point
+   - Nested Bullet point 1
+     - Nested Bullet point 2
    
 #### Ordered Lists
 1. Bullet point 1
 2. Bullet point 2 
-  1. Nested Bullet point
+  1. Nested Bullet point 1 
+     1. Nested Bullet point 2
    
       
 #### Links      
@@ -31,9 +33,9 @@ This is an inline code block.
 #### Blockquote Text Block
 > This is blockquote text {uses ">"}
 
-#### Text formatting
+#### Styling Text 
 
-**BOLD** *ITALIC*  ~~STRIKE THROUGH~~  
+**BOLD** *ITALIC*  ~~STRIKE THROUGH~~ **Bold and _Nested Italic_** ***Bold & Italic***
 
 #### Horizontal Rule
 ---
@@ -51,6 +53,13 @@ This is an inline code block.
 * [x] Task 1
 * [x] Task 2
 * [ ] Task 3
+
+#### Ignoring Markdown Formatting
+
+ Ignoring \*Markdown\* \*Formatting\*.
+ 
+[This is link to Emoji cheatsheet for markdown] (https://www.webfx.com/tools/emoji-cheat-sheet/)
+
 
 
      
