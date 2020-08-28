@@ -4,43 +4,43 @@ This is just a sample file to learn the basics of markdown.
 
 Navigating to next line - Line breaks are needed.
 
-#### Unordered Lists 
+#### 1.Unordered Lists 
 - Bullet point 1
 - Bullet point 2
    - Nested Bullet point 1
      - Nested Bullet point 2
    
-#### Ordered Lists
+#### 2.Ordered Lists
 1. Bullet point 1
 2. Bullet point 2 
-  - Nested Bullet point 1 
+   1. Nested Bullet point 1 
      - Nested Bullet point 2
    
       
-#### Links      
+#### 3.Links      
 [This is a link to my github account](https://www.github.com/dhanajyothirmai) 
 
-#### Inline text highlighter
+#### 4.Inline text highlighter
 This sentence has a `text highlighter`. 
 
-#### Inline code block.
+#### 5.Inline code block.
 ```
 This is an inline code block. 
 ```
-#### Images
+#### 6.Images
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
-#### Blockquote Text Block
+#### 7.Blockquote Text Block
 > This is blockquote text {uses ">"}
 
-#### Styling Text 
+#### 8.Styling Text 
 
-**BOLD** *ITALIC*  ~~STRIKE THROUGH~~ **Bold and _Nested Italic_** ***Bold & Italic***
+**BOLD** | *ITALIC* | ~~STRIKE THROUGH~~ | **Bold and _Nested Italic_** |  ***Bold & Italic*** |
 
-#### Horizontal Rule
+#### 9.Horizontal Rule
 ---
 
-#### Tables 
+#### 10.Tables 
 
 | Column 1 | Column 2 | Column 3
 | --- | --- | --- |
@@ -48,19 +48,19 @@ This is an inline code block.
 | D | E | F |
 | G | H | I |
 
-#### Task Lists
+#### 11.Task Lists
 
 * [x] Task 1
 * [x] Task 2
 * [ ] Task 3
 
-#### Ignoring Markdown Formatting
+#### 12.Ignoring Markdown Formatting
 
  > Ignoring \*Markdown\* \*Formatting\*.
  
-#### Emojis :thumbsup:
+#### 13.Emojis  :thumbsup:
  
-[This is link to Emoji cheatsheet for markdown](https://www.webfx.com/tools/emoji-cheat-sheet/)
+[This is a link to Emoji cheatsheet for markdown](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 
 
