@@ -13,12 +13,12 @@ Navigating to next line - Line breaks are needed.
 #### Ordered Lists
 1. Bullet point 1
 2. Bullet point 2 
-  1. Nested Bullet point 1 
-     1. Nested Bullet point 2
+  - Nested Bullet point 1 
+     - Nested Bullet point 2
    
       
 #### Links      
-[This is a link to my github account] (https://www.github.com/dhanajyothirmai) Syntax : {text | link}
+[This is a link to my github account](https://www.github.com/dhanajyothirmai) 
 
 #### Inline text highlighter
 This sentence has a `text highlighter`. 
@@ -28,7 +28,7 @@ This sentence has a `text highlighter`.
 This is an inline code block. 
 ```
 #### Images
-![Markdown Logo] (https://markdown-here.com/img/icon256.png)
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
 #### Blockquote Text Block
 > This is blockquote text {uses ">"}
@@ -56,9 +56,11 @@ This is an inline code block.
 
 #### Ignoring Markdown Formatting
 
- Ignoring \*Markdown\* \*Formatting\*.
+ > Ignoring \*Markdown\* \*Formatting\*.
  
-[This is link to Emoji cheatsheet for markdown] (https://www.webfx.com/tools/emoji-cheat-sheet/)
+#### Emojis :thumbsup:
+ 
+[This is link to Emoji cheatsheet for markdown](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 
 
