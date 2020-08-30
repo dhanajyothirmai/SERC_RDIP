@@ -2,8 +2,6 @@
     color: white; 
 }
 
-
-
 body {
     color: black;
 }
@@ -16,11 +14,14 @@ blockquote {
 text-align:center;
 background-color: #727678;
 font-size:200%;
+text-decoration: overline;
+text-shadow: 2px 2px 5px red;
 }
 h2 {
 text-align:left;
 background-color: #ebf0a;
 font-size:100%;
+text-decoration: underline;
 }
 .box {
   background-image: url(image.jpg);
@@ -30,4 +31,9 @@ font-size:100%;
 iframe {
 border:2px solid red;
 align : center;
+}
+
+p {
+  text-indent: 50px;
+  letter-spacing: 1 px;
 }
