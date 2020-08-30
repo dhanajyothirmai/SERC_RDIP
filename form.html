@@ -3,14 +3,30 @@
 <body>
 <h2>Registration Form</h2>
 <form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="Jyothirmai"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Thimmaraju"><br><br>
-  <label for="Email">E-mail id:</label><br>
-  <input type="text" id="Email" name="email" value="abc@gmail.com"><br><br>
-<label for="password">Password:</label><br>
-  <input type="text" id="password" name="password" value="******"><br><br>
+  <label for="fname"><b>Name:<b></label><br>
+  <input type="text" id="fname" name="fname"><br> 
+ 
+  <label for="phoneno"><b>Phone Number:<b></label><br>
+  <input type="number" id="phoneno" name="phoneno"><br>
+  
+  <label for="course"><b>Choice Of course:<b></label><br>
+  <input type="radio" id="bachelors" name="course" >
+  <label for="bachelors">Bachelors</label><br>
+  <input type="radio" id="masters" name="course" >
+  <label for="masters">Masters</label><br>
+
+
+  <label for="Desc"><b>Description:<b></label><br>
+  <textarea rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea><br>
+
+  <label for="subject"><b>Subject Interests:<b></label><br>
+  <input type="checkbox" id="" name="subject1">
+  <label for="subject1"> Operating Systems</label><br>
+  <input type="checkbox" id="subject2" name="subject2">
+  <label for="subject2"> Theory Of Computation</label><br>
+  <input type="checkbox" id="subject3" name="subject3">
+  <label for="subject3"> Data Structures </label><br>
   <input type="submit" value="Register">
 <p> Registration Succesful </p>
 <a href="Stream.html">
