@@ -1,21 +1,33 @@
 .main-heading { 
-    color: blue; 
+    color: white; 
 }
 
+
+
 body {
-    color: green;
+    color: black;
 }
   
 blockquote {
     background-color: #ebf0a8;
     border: 2px solid black;
 }
-
-h1 {
+ h1 {
 text-align:center;
+background-color: #727678;
 font-size:200%;
 }
 h2 {
 text-align:left;
+background-color: #ebf0a;
 font-size:100%;
+}
+.box {
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px 20em;
+}  
+iframe {
+border:2px solid red;
+align : center;
 }
