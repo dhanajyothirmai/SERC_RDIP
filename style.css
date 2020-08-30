@@ -1,5 +1,7 @@
 .main-heading { 
     color: white; 
+    font-family: serif;
+  font-style : italic; 
 }
 
 body {
