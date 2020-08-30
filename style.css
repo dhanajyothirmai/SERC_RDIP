@@ -21,6 +21,7 @@ div {
   margin-left: 50px;
   background-color: lightblue;
    padding: 25px;
+   position: static;
 }
 a:hover, a:active {
   background-color: red;
