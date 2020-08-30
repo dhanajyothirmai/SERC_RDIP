@@ -56,6 +56,9 @@ text-decoration: underline;
 iframe {
 border:2px solid red;
 align : center;
+
+  display: inline;
+
 }
 
 p {
