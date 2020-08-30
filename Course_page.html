@@ -3,13 +3,39 @@
 <head>
 <a href = "form.html">Register</a>
 <title style="font-family:verdana;">Courses</title>
-<h1> Courses </h2>
+<h1 style = "background-color: #ffe5e5;"> Courses </h2>
 </head>
+<style>
+ol.a {
+  list-style-type: circle;
+background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #ffe5e5;
+  padding: 20px;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ul.c {
+  list-style-type: upper-roman;
+}
+
+ul.d {
+  list-style-type: lower-alpha;
+}
+
+</style>
 <hr>
 <body>
-<ol>
+ 
+<ol class ="a">
   <li>Responsive Web Design
-  <ul>
+  <ul class = "b">
       <li>HTML</li>
       <li>CSS </li>
       <li>Javascript</li>
@@ -17,7 +43,7 @@
   </li>
 <hr>
   <li>Machine Learning  
-    <ul>
+    <ul class = "c">
       <li>Supervised Learning</li>
       <li>Unsupervised Learing</li>
       <li>Reinforcement Learning</li>
@@ -25,7 +51,7 @@
   </li>  
 <hr>          
   <li>Docker Essentials
-  <ul>
+  <ul class = "d">
       <li>Containerization Overview </li>
       <li>Docker File</li>
       <li>Docker Image</li>
