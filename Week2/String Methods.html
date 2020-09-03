@@ -1,0 +1,21 @@
+
+<html>
+  <body>
+    <h2>JavaScript Introduction</h2>
+    <p>JavaScript is a programming language that adds interactivity to your website. It is a dynamic computer programming language. It is an interpreted programming language with object-oriented capabilities.<br>It helps in developing great front-end as well as back-end softwares using different Javascript based frameworks like jQuery, Node.JS etc.</p>
+    <p id="intro">JavaScript is a programming language that adds interactivity to your website. It is a dynamic computer programming language. It is an interpreted programming language with object-oriented capabilities.<br>It helps in developing great front-end as well as back-end softwares using different Javascript based frameworks like jQuery, Node.JS etc.</p>
+    <p id="r1"></p>
+    <p id="r2"></p>
+    <p id="r3"></p>
+    <script>
+      var str = document.getElementById('intro').innerHTML;
+      var n1 = 5, n2 = 7, n3 = 10;
+      var result1 = str.split(' ')[n1-1];
+      var result2 = str.split(' ')[n2-1];
+      var result3 = str.split(' ')[n3-1];
+      document.getElementById('r1').innerHTML = "5th word is: " + result1;
+      document.getElementById('r2').innerHTML = "7th word is: " + result2;
+      document.getElementById('r3').innerHTML = "10th word is: " + result3;
+    </script>
+  </body>
+</html>
