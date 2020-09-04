@@ -1,0 +1,94 @@
+Get method:-
+
+<html>
+    <head>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script>
+        
+  $(document).ready(function(){
+  $("button").click(function(){
+    var name=$("#name").val();
+      var address=$("#address").val();
+      alert(name);
+      alert(address);
+	  
+	  $.get("get.php",
+	  {
+		  name1:name,
+		  address1:address,
+	  }
+	  ,function( data ){
+		  alert(data);
+	  });
+  });
+});    
+        </script>
+    </head>
+    <body>
+    
+        <center>
+            <h1>Jquery Get Request Test</h1>
+            <form> 
+             Name : <input type="text" id="name"><br><br>
+             Address : <input type="text" id="address"><br><br>
+                <button>Submit</button>
+            </form>
+        </center>
+    </body>
+</html>
+
+get method code :-
+
+<?php
+$name=$_GET['name1'];
+$address=$_GET['address1'];
+echo 'Your name is '.$name;
+echo 'Your address is '.$address;
+?>
+
+Post method :-
+
+ <html>
+  <head>
+   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script>
+        
+  $(document).ready(function(){
+  $("button").click(function(){
+    var name=$("#name").val();
+      var address=$("#address").val();
+      alert(name);
+      alert(address);
+	  
+	  $.post("post.php",
+	  {
+		  name1:name,
+		  address1:address,
+	  }
+	  ,function( data ){
+		  alert(data);
+	  });
+  });
+});    
+        </script>
+    </head>
+    <body>
+    
+        <center>
+            <h1>Jquery Post Request Test</h1>
+            <form> 
+             Name : <input type="text" id="name"><br><br>
+             Address : <input type="text" id="address"><br><br>
+                <button>Submit</button>
+            </form>
+        </center>
+    </body>
+</html>
+
+post method code:-
+
+<?php
+echo 'success post call test';
+echo 'Your name is '.$_POST['name1'];
+echo 'Your address is '.$_POST['address1'];
+?>
